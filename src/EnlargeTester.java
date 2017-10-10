@@ -9,10 +9,13 @@ public class EnlargeTester {
         Circle2 c1 = new Circle2();
         c1.radius = 10;
 
-        res = c.enlarge(2);
-        res1 = c1.enlarge(2);
+        System.out.println("c的周长：" + c.circumference());
+        System.out.println("c1的周长：" + c1.circumference());
 
-        System.out.println("c的周长：" + );
-        System.out.println("c1的周长：" + ;);
+        //没有返回值的函数调用方法
+        c1.enlarge(4);
+
+        System.out.println("c的周长：" + c.circumference());
+        System.out.println("c1的周长：" + c1.circumference());
     }
 }

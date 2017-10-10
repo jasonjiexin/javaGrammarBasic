@@ -20,5 +20,8 @@ public class Circle2 {
         radius = radius * factor;
     }
 
-
+    //以某个类作为函数的形式参数
+    public boolean fitsInside(Rectangle r){
+        return (2*radius<r.width) && (2*radius<r.height);
+    }
 }
