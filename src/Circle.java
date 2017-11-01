@@ -10,8 +10,10 @@ public class Circle {
         //引用变量
         Circle x;
         //构造一个对象，并为其分配一个空间
+        //引用变量的值是一个地址，而非一个具体的值
         x = new Circle();
         System.out.println(x);
+
     }
 
 

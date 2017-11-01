@@ -25,6 +25,7 @@ public class AddressTester {
 
         //每创建一个对象相当于可以在类的模板上描述一个新的对象，类的描述就是模板
         System.out.println(address1.name);
+        //打印引用变量结果是一个地址
         System.out.println(address2);
 
     }

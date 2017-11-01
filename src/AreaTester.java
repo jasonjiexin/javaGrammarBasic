@@ -12,5 +12,9 @@ public class AreaTester {
 
         System.out.println("Circle has area:" + c.area());
         System.out.println("Rectangle has area:" + r.area());
+
+        //当用一个类作为参数的时候，调用的时候直接传入已经构造的对象，程序自动取其中的值
+        System.out.println("Circle in Rectangle ?" + c.fitsInside(r));
     }
 }
+

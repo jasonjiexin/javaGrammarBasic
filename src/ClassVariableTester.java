@@ -15,5 +15,8 @@ public class ClassVariableTester {
         Circle1.PI = 3.14;
         System.out.println(x.PI);
         System.out.println(Circle1.PI);
+
+        x.PI = 3.15;
+        System.out.println(x.PI);
     }
 }
